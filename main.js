@@ -2,6 +2,8 @@ import App from './App'
 
 // #ifndef VUE3
 import Vue from 'vue'
+import uview from "uview-ui"
+Vue.use(uview)
 Vue.config.productionTip = false
 App.mpType = 'app'
 const app = new Vue({
